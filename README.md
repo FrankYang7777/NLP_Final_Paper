@@ -12,6 +12,10 @@ The COVID-19 pandemic has been accompanied by a 'pandemic of misinformation'. Th
 - **Machine Learning Models**: Comparison of models like XGBoost and SVM to classify news effectively.
 - **Linguistic Feature Analysis**: Enhanced analysis of the linguistic features that determine the model's judgment.
 
+## Dataset
+
+The dataset used in this study was taken from the kaggle web-site and its original purpose was to serve as a subtask for CON-STRAINT-2021. This data was obtained from several different social media including Twitter, Facebook, Instagram, etc. The dataset is split into two parts. The first one is the train set and the second one is testing set. The dataset is divided into three columns, which are id, tweet and label, where id is the news id (primary key), tweet is the content of the news and label is the classification of the news (fake or real). Considering that each news item has been labeled, this dataset can be used for this study. According to the description of the data source, the train set as well as the test set of the dataset are random sampling, so no further resampling is needed. 
+
 ## Getting Started
 
 ### Prerequisites
